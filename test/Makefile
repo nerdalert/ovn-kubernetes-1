@@ -10,10 +10,6 @@ shard-%:
 control-plane:
 	./scripts/e2e-cp.sh
 
-#.PHONY: install
-#control-plane:
-#	./scripts/e2e-cp.sh
-
 .PHONY: install-cno-kind
 install-cno-kind:
 	./scripts/install-cno-kind.sh
